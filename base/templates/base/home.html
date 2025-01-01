@@ -1,0 +1,118 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ALUMINATES </title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/me.jpg' %}" >
+					<hr>
+					<h4> Hi I'm aluminates! </h4>
+					<p> I'm a coder, an avid reader, a research enthusiast, an aspiring writer and a polyglot in progress! </p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4> Random Heading Here </h4>
+					<hr>
+					<p> I'm just learning Django with this resume application! </p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/goodreads.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/github.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5> Previous Experience </h5>
+					<hr>
+					<p> • Intern @ XYZ </p>
+                    <p> • Research Assistant @ ABC </p>
+                    <p> • Teaching Assistant @ LMN </p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Skills</h5>
+					<hr>
+					<p>Python, R, Java, C/C++, SQL, JavaScript, HTML/CSS, MERN Stack, Spring-Boot MVC, StreamlitUI, Langchain, HuggingFace Transformers,
+                        Ollama, LMStudio, AWS, MongoDB, MySQL, RDBMS, Neo4j, Docker, Kubernetes</p>
+					<p>PS: Working on Django, Computer Vision & GenAI.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5> Certifications </h5>
+					<hr>
+					<p>
+                        • Machine Learning Specialization, DeepLearning.AI: Coursera
+                    </p>
+                    <p>
+                        • Jira Work Management Fundamentals: Atlassian
+                    </p>
+                    <p>
+
+                        • A Beginner’s Guide to Linux Kernel Development: The Linux Foundation
+                    </p>
+                    <p>
+                        • Cloud Computing 101: AWS Educate
+                    </p>
+                    <p>
+                        • Accenture North America Data Analytics and Visualization Job Simulation: Forage
+                    </p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5> Projects </h5>
+				<hr>
+                <p>
+                • Dialogue- Web Chat
+                Designed a real-time chat application using the MERN stack, Redux hooks and socket programming, enhancing
+                interaction speeds.
+                </p>
+                <p>
+                • Task Management with Raft Consensus Algorithm
+                Implemented it for fault-tolerant distributed systems (Raft Consensus) with StreamlitUI and MySQL, achieving
+                high consistency across nodes.
+                </p>
+                <p>
+                • Travela
+                Crafted an LLM-powered one-stop shop for flight and cab transfer offers in an 8-hour hackathon; led the team
+                presentation and engineered the SQL/Llama3.1 backend.
+                </p>
+                <p>
+                • Interactive F1 App
+                A comprehensive SQL-based database for managing and analyzing Formula-1 data.
+                </p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
